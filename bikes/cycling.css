@@ -1,0 +1,106 @@
+body{
+    background-image: url(cool.jpg);
+    color:rgb(122, 122, 122);
+    box-sizing:border-box
+}
+h1{
+    text-align: center;
+    color:white
+}
+section{
+    width:45%;
+    float:left;
+    border:2px solid rgb(122, 122, 122);
+    border-radius: 10px;
+    margin:3px
+}
+article{
+    width:30%;
+    float:left;
+    border:2px solid rgb(122, 122, 122);
+    border-radius: 10px;
+    margin:1px;
+    overflow: auto;
+}
+p{
+    margin:10px
+}
+h2{
+    margin:10px;
+    text-align: center;
+    color:white
+   
+}
+
+h3{
+    padding: 19px;
+}
+h3::before{
+    content: "✔";
+    color:rgb(175, 175, 43)
+}
+a{
+    color:grey;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 7px;
+
+}
+nav #active{
+    background-color:  rgb(122, 122, 122);
+    color:white
+}
+#reff:hover{
+    color:blue
+
+}
+#box1{
+    border:2px solid  rgb(122, 122, 122);
+    border-radius: 10px;
+    float: left;
+}
+#bike1:hover{
+    color:rgb(55, 55, 124);
+    cursor:pointer  
+
+}
+#bike2{
+    border:2px solid  rgb(122, 122, 122);
+    border-radius: 10px;
+
+
+}
+#bike2:hover{
+    color:rgb(55, 55, 124);
+    cursor:pointer;
+}
+#box2{
+    padding: 10px;
+    margin-left: 20px;
+    float:left
+}
+
+#position{
+
+    padding: 6px;
+    border-style: none;
+}
+#tutt:hover{
+    color: rgb(53, 53, 145);
+}
+#pt{
+    float:left
+}
+#tutt{
+    color:rgb(214, 209, 209);
+    float:left
+}
+
+
+
+@media screen and (max-width:600px)
+{aside,section,article{width: 100%;}}
+
+
+
